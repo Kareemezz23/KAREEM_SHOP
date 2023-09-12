@@ -428,15 +428,13 @@ h3{
     }
 /* end footer  style  */
 
-#slider {
-    width: 1500px;
-    height: 700px;
-    border: 1px solid silver;
-    background-image: url(./Oppo-Reno-8T.jpg);
-    box-shadow: 1px 1px 12px black;
-    animation-name: photo;
-    animation-delay: 4s;
-    animation-duration: 20s;
-    animation-iteration-count: infinite;
+img {
+    width: 200px;
+    height: auto;
+    transition: transform 0.3s; 
+}
 
+
+img:hover {
+    transform: scale(1.2); 
 }
